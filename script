@@ -18,20 +18,94 @@ local arsenalgui = Instance.new("TextButton")
 local katgui = Instance.new("TextButton")
 local Noclip = Instance.new("TextButton")
 local assassingui = Instance.new("TextButton")
+local ffgui = Instance.new("TextButton")
 
-MoonX.Name = "MoonX"
-MoonX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-MoonX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
 
 MoonXFrame.Name = "MoonXFrame"
 MoonXFrame.Parent = MoonX
 MoonXFrame.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 MoonXFrame.BorderSizePixel = 0
-MoonXFrame.Position = UDim2.new(0.157460287, 0, 0.0865084082, 0)
+MoonXFrame.Position = UDim2.new(0.162571013, 0, 0.0965251029, 0)
 MoonXFrame.Size = UDim2.new(0, 466, 0, 438)
 MoonXFrame.Draggable = true
 MoonXFrame.Selectable = true
 MoonXFrame.Active = true
+
+ffgui.Name = "ffgui"
+ffgui.Parent = MoonXFrame
+ffgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ffgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
+ffgui.BorderSizePixel = 0
+ffgui.Position = UDim2.new(-0.268240303, 0, 0.577625513, 0)
+ffgui.Size = UDim2.new(0, 108, 0, 51)
+ffgui.Font = Enum.Font.SourceSans
+ffgui.Text = "FUNKY FRIDAY GUI"
+ffgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+ffgui.TextSize = 20.000
+ffgui.TextWrapped = true
+ffgui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+assassingui.Name = "assassingui"
+assassingui.Parent = MoonXFrame
+assassingui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+assassingui.BorderColor3 = Color3.fromRGB(45, 44, 44)
+assassingui.BorderSizePixel = 0
+assassingui.Position = UDim2.new(-0.268240303, 0, 0.577625513, 0)
+assassingui.Size = UDim2.new(0, 108, 0, 26)
+assassingui.Font = Enum.Font.SourceSans
+assassingui.Text = "ASSASSIN GUI"
+assassingui.TextColor3 = Color3.fromRGB(255, 255, 255)
+assassingui.TextSize = 20.000
+assassingui.TextWrapped = true
+assassingui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Atta/main/Assassin%20Shitter'))();
+end)
+
+katgui.Name = "katgui"
+katgui.Parent = MoonXFrame
+katgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+katgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
+katgui.BorderSizePixel = 0
+katgui.Position = UDim2.new(-0.268240303, 0, 0.493150651, 0)
+katgui.Size = UDim2.new(0, 108, 0, 26)
+katgui.Font = Enum.Font.SourceSans
+katgui.Text = "KAT GUI"
+katgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+katgui.TextSize = 20.000
+katgui.TextWrapped = true
+katgui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx", true))()
+ 
+end)
+
+MoonXHub.Name = "MoonXHub"
+MoonXHub.Parent = MoonXFrame
+MoonXHub.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+MoonXHub.BorderSizePixel = 0
+MoonXHub.Position = UDim2.new(-0.300429195, 0, 0, 0)
+MoonXHub.Size = UDim2.new(0, 140, 0, 438)
+
+MoonX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MoonX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+arsenalgui.Name = "arsenalgui"
+arsenalgui.Parent = MoonXFrame
+arsenalgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+arsenalgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
+arsenalgui.BorderSizePixel = 0
+arsenalgui.Position = UDim2.new(-0.268240303, 0, 0.383561611, 0)
+arsenalgui.Size = UDim2.new(0, 108, 0, 40)
+arsenalgui.Font = Enum.Font.SourceSans
+arsenalgui.Text = "Arsenal Darkhub"
+arsenalgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+arsenalgui.TextSize = 20.000
+arsenalgui.TextWrapped = true
+arsenalgui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
 
 Name.Name = "Name"
 Name.Parent = MoonXFrame
@@ -44,6 +118,418 @@ Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 Name.TextScaled = true
 Name.TextSize = 14.000
 Name.TextWrapped = true
+
+mm2gui.Name = "mm2gui"
+mm2gui.Parent = MoonXFrame
+mm2gui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+mm2gui.BorderColor3 = Color3.fromRGB(45, 44, 44)
+mm2gui.BorderSizePixel = 0
+mm2gui.Position = UDim2.new(-0.268240303, 0, 0.173515946, 0)
+mm2gui.Size = UDim2.new(0, 108, 0, 26)
+mm2gui.Font = Enum.Font.SourceSans
+mm2gui.Text = "MM2 GUI"
+mm2gui.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2gui.TextSize = 20.000
+mm2gui.TextWrapped = true
+mm2gui.MouseButton1Click:Connect(function()
+	-- Gui to Lua
+	-- Version: 3.2
+
+	-- Instances:
+
+	local gui = Instance.new("ScreenGui")
+	local MainFrame = Instance.new("Frame")
+	local TopPanel = Instance.new("Frame")
+	local TextLabel = Instance.new("TextLabel")
+	local SF = Instance.new("ScrollingFrame")
+	local Jayhub = Instance.new("TextButton")
+	local Eclipse = Instance.new("TextButton")
+	local IY = Instance.new("TextButton")
+	local FreeXboxKnife = Instance.new("TextButton")
+	local Frame = Instance.new("Frame")
+	local Credits = Instance.new("TextButton")
+	local CLOSE = Instance.new("TextButton")
+	local OPEN = Instance.new("TextButton")
+	local CreditsFrame = Instance.new("Frame")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local ccf = Instance.new("TextButton")
+
+	--Properties:
+
+	gui.Name = "gui"
+	gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	MainFrame.Name = "MainFrame"
+	MainFrame.Parent = gui
+	MainFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+	MainFrame.Position = UDim2.new(0.311754674, 0, 0.11204014, 0)
+	MainFrame.Size = UDim2.new(0, 657, 0, 348)
+	MainFrame.Visible = false
+
+	TopPanel.Name = "TopPanel"
+	TopPanel.Parent = MainFrame
+	TopPanel.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+	TopPanel.BorderColor3 = Color3.fromRGB(24, 24, 24)
+	TopPanel.BorderSizePixel = 2
+	TopPanel.Size = UDim2.new(0, 657, 0, 61)
+
+	TextLabel.Parent = TopPanel
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	TextLabel.Size = UDim2.new(0, 200, 0, 61)
+	TextLabel.Font = Enum.Font.SourceSans
+	TextLabel.Text = "DIAMOND TESTER"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+
+	SF.Name = "SF"
+	SF.Parent = MainFrame
+	SF.Active = true
+	SF.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	SF.Position = UDim2.new(0.403348565, 0, 0.19252874, 0)
+	SF.Size = UDim2.new(0, 385, 0, 262)
+
+	Jayhub.Name = "Jayhub"
+	Jayhub.Parent = SF
+	Jayhub.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Jayhub.Position = UDim2.new(0.0506890118, 0, 0.038371522, 0)
+	Jayhub.Size = UDim2.new(0, 200, 0, 50)
+	Jayhub.Font = Enum.Font.SourceSans
+	Jayhub.Text = "JayHub"
+	Jayhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Jayhub.TextScaled = true
+	Jayhub.TextSize = 14.000
+	Jayhub.TextWrapped = true
+
+	Eclipse.Name = "Eclipse"
+	Eclipse.Parent = SF
+	Eclipse.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Eclipse.Position = UDim2.new(0.0506890118, 0, 0.14181979, 0)
+	Eclipse.Size = UDim2.new(0, 200, 0, 50)
+	Eclipse.Font = Enum.Font.SourceSans
+	Eclipse.Text = "Eclipse"
+	Eclipse.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Eclipse.TextScaled = true
+	Eclipse.TextSize = 14.000
+	Eclipse.TextWrapped = true
+
+	IY.Name = "IY"
+	IY.Parent = SF
+	IY.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	IY.Position = UDim2.new(0.0506890118, 0, 0.239520922, 0)
+	IY.Size = UDim2.new(0, 200, 0, 50)
+	IY.Font = Enum.Font.SourceSans
+	IY.Text = "Infinite Yield"
+	IY.TextColor3 = Color3.fromRGB(255, 255, 255)
+	IY.TextScaled = true
+	IY.TextSize = 14.000
+	IY.TextWrapped = true
+
+	FreeXboxKnife.Name = "FreeXboxKnife"
+	FreeXboxKnife.Parent = SF
+	FreeXboxKnife.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	FreeXboxKnife.Position = UDim2.new(0.0506890118, 0, 0.342969179, 0)
+	FreeXboxKnife.Size = UDim2.new(0, 200, 0, 50)
+	FreeXboxKnife.Font = Enum.Font.SourceSans
+	FreeXboxKnife.Text = "Free Xbox Knife"
+	FreeXboxKnife.TextColor3 = Color3.fromRGB(255, 255, 255)
+	FreeXboxKnife.TextScaled = true
+	FreeXboxKnife.TextSize = 14.000
+	FreeXboxKnife.TextWrapped = true
+
+	Frame.Parent = MainFrame
+	Frame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+	Frame.Position = UDim2.new(0.351598173, 0, 0.175287351, 0)
+	Frame.Size = UDim2.new(0, 14, 0, 287)
+
+	Credits.Name = "Credits"
+	Credits.Parent = MainFrame
+	Credits.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	Credits.Position = UDim2.new(0.0221175812, 0, 0.222279564, 0)
+	Credits.Size = UDim2.new(0, 200, 0, 50)
+	Credits.Font = Enum.Font.SourceSans
+	Credits.Text = "Credits"
+	Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Credits.TextScaled = true
+	Credits.TextSize = 14.000
+	Credits.TextWrapped = true
+
+	CLOSE.Name = "CLOSE"
+	CLOSE.Parent = MainFrame
+	CLOSE.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+	CLOSE.BorderSizePixel = 0
+	CLOSE.Position = UDim2.new(0.92713511, 0, 0.0275361463, 0)
+	CLOSE.Size = UDim2.new(0, 40, 0, 41)
+	CLOSE.Font = Enum.Font.SourceSans
+	CLOSE.Text = "_"
+	CLOSE.TextColor3 = Color3.fromRGB(46, 56, 255)
+	CLOSE.TextScaled = true
+	CLOSE.TextSize = 14.000
+	CLOSE.TextWrapped = true
+
+	OPEN.Name = "OPEN"
+	OPEN.Parent = gui
+	OPEN.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+	OPEN.Position = UDim2.new(0.0723458901, 0, 0.719406009, 0)
+	OPEN.Size = UDim2.new(0, 200, 0, 50)
+	OPEN.Font = Enum.Font.SourceSans
+	OPEN.Text = "OPEN"
+	OPEN.TextColor3 = Color3.fromRGB(255, 255, 255)
+	OPEN.TextScaled = true
+	OPEN.TextSize = 14.000
+	OPEN.TextWrapped = true
+
+	CreditsFrame.Name = "CreditsFrame"
+	CreditsFrame.Parent = gui
+	CreditsFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	CreditsFrame.Position = UDim2.new(0.0511073247, 0, 0.198996648, 0)
+	CreditsFrame.Size = UDim2.new(0, 224, 0, 283)
+	CreditsFrame.Visible = false
+
+	TextLabel_2.Parent = CreditsFrame
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+	TextLabel_2.Size = UDim2.new(0, 224, 0, 45)
+	TextLabel_2.Font = Enum.Font.SourceSans
+	TextLabel_2.Text = "Credits"
+	TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.TextScaled = true
+	TextLabel_2.TextSize = 14.000
+	TextLabel_2.TextWrapped = true
+
+	TextLabel_3.Parent = CreditsFrame
+	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.BackgroundTransparency = 1.000
+	TextLabel_3.Position = UDim2.new(0.0223214291, 0, 0.204946995, 0)
+	TextLabel_3.Size = UDim2.new(0, 212, 0, 192)
+	TextLabel_3.Font = Enum.Font.SourceSans
+	TextLabel_3.Text = "Credits to BlueValkyrie#8688 for making \"DIAMOND TESTER\""
+	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.TextScaled = true
+	TextLabel_3.TextSize = 30.000
+	TextLabel_3.TextWrapped = true
+
+	ccf.Name = "ccf"
+	ccf.Parent = CreditsFrame
+	ccf.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+	ccf.BorderSizePixel = 0
+	ccf.Position = UDim2.new(0.788728714, 0, 0.0126592955, 0)
+	ccf.Size = UDim2.new(0, 40, 0, 41)
+	ccf.Font = Enum.Font.SourceSans
+	ccf.Text = "_"
+	ccf.TextColor3 = Color3.fromRGB(255, 255, 255)
+	ccf.TextScaled = true
+	ccf.TextSize = 14.000
+	ccf.TextWrapped = true
+
+	-- Scripts:
+
+	local function BTMHPA_fake_script() -- MainFrame.Script 
+		local script = Instance.new('Script', MainFrame)
+
+		script.Parent.Active = true
+		script.Parent.Draggable = true
+	end
+	coroutine.wrap(BTMHPA_fake_script)()
+	local function WMGRPKR_fake_script() -- Jayhub.LocalScript 
+		local script = Instance.new('LocalScript', Jayhub)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
+
+		end)
+	end
+	coroutine.wrap(WMGRPKR_fake_script)()
+	local function RMMNMB_fake_script() -- Eclipse.LocalScript 
+		local script = Instance.new('LocalScript', Eclipse)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+		end)
+	end
+	coroutine.wrap(RMMNMB_fake_script)()
+	local function OEXHT_fake_script() -- IY.LocalScript 
+		local script = Instance.new('LocalScript', IY)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true)) ()
+		end)
+	end
+	coroutine.wrap(OEXHT_fake_script)()
+	local function SPYNST_fake_script() -- FreeXboxKnife.LocalScript 
+		local script = Instance.new('LocalScript', FreeXboxKnife)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			game.ReplicatedStorage.IsXbox:FireServer(true)
+		end)
+	end
+	coroutine.wrap(SPYNST_fake_script)()
+	local function WCDGI_fake_script() -- Credits.LocalScript 
+		local script = Instance.new('LocalScript', Credits)
+
+		local cf = script.Parent.Parent.Parent.CreditsFrame
+		script.Parent.MouseButton1Click:Connect(function()
+			cf.Visible = true
+		end)
+	end
+	coroutine.wrap(WCDGI_fake_script)()
+	local function HTYLUKI_fake_script() -- CLOSE.LocalScript 
+		local script = Instance.new('LocalScript', CLOSE)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.OPEN.Visible = true
+		end)
+	end
+	coroutine.wrap(HTYLUKI_fake_script)()
+	local function LPNU_fake_script() -- OPEN.LocalScript 
+		local script = Instance.new('LocalScript', OPEN)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Visible = false
+			script.Parent.Parent.MainFrame.Visible = true
+		end)
+	end
+	coroutine.wrap(LPNU_fake_script)()
+	local function GNYEHN_fake_script() -- ccf.LocalScript 
+		local script = Instance.new('LocalScript', ccf)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Visible = false
+		end)
+	end
+	coroutine.wrap(GNYEHN_fake_script)()
+	local function ENRHX_fake_script() -- CreditsFrame.Script 
+		local script = Instance.new('Script', CreditsFrame)
+
+		script.Parent.Active = true
+		script.Parent.Draggable = true
+	end
+	coroutine.wrap(ENRHX_fake_script)()
+	local function MLTNDC_fake_script() -- gui.LocalScript 
+		local script = Instance.new('LocalScript', gui)
+
+
+	end
+	coroutine.wrap(MLTNDC_fake_script)()
+
+end)
+
+bphack.Name = "bphack"
+bphack.Parent = MoonXFrame
+bphack.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+bphack.BorderColor3 = Color3.fromRGB(45, 44, 44)
+bphack.BorderSizePixel = 0
+bphack.Position = UDim2.new(-0.268240303, 0, 0.257990837, 0)
+bphack.Size = UDim2.new(0, 108, 0, 42)
+bphack.Font = Enum.Font.SourceSans
+bphack.Text = "Big Paintball Hack"
+bphack.TextColor3 = Color3.fromRGB(255, 255, 255)
+bphack.TextSize = 20.000
+bphack.TextWrapped = true
+bphack.MouseButton1Click:Connect(function()
+	------------------------------------------------
+	---              Fiusen Hub V2                  ---
+	---------------------------------------------------
+
+	-- Var
+	local Players       = game:GetService("Players"); --> Wally is sexy!
+	local Player        = Players.LocalPlayer;
+
+	-- Game Things
+	local scriptEnv     = require(game:GetService("ReplicatedStorage").Framework.Library);
+	local network       = scriptEnv.Network;
+	local gunCmds       = scriptEnv.GunCmds;
+	local SilentAimTog  = true;
+	local UnlockAllTog  = true;
+
+	-- Close Player Func
+	local function getClosestPlayer()
+		local shortestDistance, closestPlayer  = math.huge;
+
+		for i, v in next, Players:GetPlayers() do
+			if (v.Name ~= Player.Name and v.Team ~= Player.Team and Player.Character and Player.Character:FindFirstChild("HumanoidRootPart") and v.Character and v.Character:FindFirstChild("HumanoidRootPart")) then
+				local mag = (v.Character.HumanoidRootPart.Position - Player.Character.HumanoidRootPart.Position).magnitude;
+
+				if (mag < shortestDistance) then
+					closestPlayer = v;
+					shortestDistance = mag;
+				end;
+			end;
+		end;
+
+		return closestPlayer;
+	end;
+
+	-- Kill Function
+	local function kill(code, plr)
+		if (code and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart")) then
+			local data = 
+				{
+					[1] = 
+					{
+						[1] = plr.Character.Humanoid;
+						[2] = code;
+						[3] = 235;
+						[4] = plr.Character.HumanoidRootPart.Position;
+						[5] = false;
+					};
+					[2] = 
+					{
+						[1] = false;
+						[2] = false;
+						[3] = false;
+						[4] = false;
+						[5] = false;
+					};
+				};
+
+			game:GetService("Workspace"):FindFirstChild("__THINGS"):FindFirstChild("__REMOTES"):FindFirstChild("do damage"):FireServer(data);
+		end;
+	end;
+
+	-- Unlock All Hook
+	do
+		-- Hook
+		local oldUnlockAll = gunCmds.DoesOwnGun;
+
+		gunCmds.DoesOwnGun = newcclosure(function(...)
+			if (UnlockAllTog) then
+				return true;
+			end;
+
+			return oldUnlockAll(...);
+		end);
+	end;
+
+	-- Network Hook
+	do
+		-- Hook
+		local oldFire = network.Fire;
+
+		network.Fire = newcclosure(function(self, ...)
+			local args = {...};
+
+			if (tostring(self) == "New Projectile" and SilentAimTog) then
+				local closePlayer = getClosestPlayer();
+
+				if (closePlayer) then
+					kill(args[2], closePlayer); --> Epic func
+				end;
+			elseif (tostring(self) == "Request Respawn" and UnlockAllTog) then
+				args[1] = "1"; --> Easy peasy bypass :)
+			end;
+
+			return oldFire(self, unpack(args));
+		end);
+	end;
+
+	print'running!'; --> Prints for when its done loading gg
+end)
 
 WalkSpeed.Name = "WalkSpeed"
 WalkSpeed.Parent = MoonXFrame
@@ -154,12 +640,43 @@ Close.MouseButton1Click:Connect(function()
 	MoonXFrame.Visible = false
 end)
 
+Noclip.Name = "Noclip"
+Noclip.Parent = MoonXFrame
+Noclip.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Noclip.BorderColor3 = Color3.fromRGB(45, 44, 44)
+Noclip.BorderSizePixel = 0
+Noclip.Position = UDim2.new(0.304721087, 0, 0.46347031, 0)
+Noclip.Size = UDim2.new(0, 179, 0, 39)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.TextSize = 20.000
+Noclip.TextWrapped = true
+Noclip.MouseButton1Click:Connect(function()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Touched:connect(function(obj)
+
+spawn(function()
+K = obj.Transparency
+J = obj.CanCollide
+obj.Transparency = 0.5
+obj.CanCollide = false
+while wait() do
+if (noclipplayer.Character.HumanoidRootPart.Position - obj.Position).Magnitude > 10 then
+obj.Transparency = K
+obj.CanCollide = J
+break
+end
+end
+end)
+end)
+end)
+
 MoonXHub.Name = "MoonXHub"
 MoonXHub.Parent = MoonXFrame
 MoonXHub.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
 MoonXHub.BorderSizePixel = 0
-MoonXHub.Position = UDim2.new(-0.302575111, 0, 0, 0)
-MoonXHub.Size = UDim2.new(0, 141, 0, 438)
+MoonXHub.Position = UDim2.new(-0.300429195, 0, 0, 0)
+MoonXHub.Size = UDim2.new(0, 140, 0, 438)
 
 TextLabel.Parent = MoonXHub
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -628,496 +1145,4 @@ plgui.MouseButton1Click:Connect(function()
 	end
 	coroutine.wrap(OTAQX_fake_script)()
 
-end)
-
-mm2gui.Name = "mm2gui"
-mm2gui.Parent = MoonXFrame
-mm2gui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-mm2gui.BorderColor3 = Color3.fromRGB(45, 44, 44)
-mm2gui.BorderSizePixel = 0
-mm2gui.Position = UDim2.new(-0.268240303, 0, 0.173515946, 0)
-mm2gui.Size = UDim2.new(0, 108, 0, 26)
-mm2gui.Font = Enum.Font.SourceSans
-mm2gui.Text = "MM2 GUI"
-mm2gui.TextColor3 = Color3.fromRGB(255, 255, 255)
-mm2gui.TextSize = 20.000
-mm2gui.TextWrapped = true
-mm2gui.MouseButton1Click:Connect(function()
-	-- Gui to Lua
-	-- Version: 3.2
-
-	-- Instances:
-
-	local gui = Instance.new("ScreenGui")
-	local MainFrame = Instance.new("Frame")
-	local TopPanel = Instance.new("Frame")
-	local TextLabel = Instance.new("TextLabel")
-	local SF = Instance.new("ScrollingFrame")
-	local Jayhub = Instance.new("TextButton")
-	local Eclipse = Instance.new("TextButton")
-	local IY = Instance.new("TextButton")
-	local FreeXboxKnife = Instance.new("TextButton")
-	local Frame = Instance.new("Frame")
-	local Credits = Instance.new("TextButton")
-	local CLOSE = Instance.new("TextButton")
-	local OPEN = Instance.new("TextButton")
-	local CreditsFrame = Instance.new("Frame")
-	local TextLabel_2 = Instance.new("TextLabel")
-	local TextLabel_3 = Instance.new("TextLabel")
-	local ccf = Instance.new("TextButton")
-
-	--Properties:
-
-	gui.Name = "gui"
-	gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-	gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-	MainFrame.Name = "MainFrame"
-	MainFrame.Parent = gui
-	MainFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
-	MainFrame.Position = UDim2.new(0.311754674, 0, 0.11204014, 0)
-	MainFrame.Size = UDim2.new(0, 657, 0, 348)
-	MainFrame.Visible = false
-
-	TopPanel.Name = "TopPanel"
-	TopPanel.Parent = MainFrame
-	TopPanel.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-	TopPanel.BorderColor3 = Color3.fromRGB(24, 24, 24)
-	TopPanel.BorderSizePixel = 2
-	TopPanel.Size = UDim2.new(0, 657, 0, 61)
-
-	TextLabel.Parent = TopPanel
-	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.BackgroundTransparency = 1.000
-	TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel.Size = UDim2.new(0, 200, 0, 61)
-	TextLabel.Font = Enum.Font.SourceSans
-	TextLabel.Text = "DIAMOND TESTER"
-	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.TextScaled = true
-	TextLabel.TextSize = 14.000
-	TextLabel.TextWrapped = true
-
-	SF.Name = "SF"
-	SF.Parent = MainFrame
-	SF.Active = true
-	SF.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-	SF.Position = UDim2.new(0.403348565, 0, 0.19252874, 0)
-	SF.Size = UDim2.new(0, 385, 0, 262)
-
-	Jayhub.Name = "Jayhub"
-	Jayhub.Parent = SF
-	Jayhub.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	Jayhub.Position = UDim2.new(0.0506890118, 0, 0.038371522, 0)
-	Jayhub.Size = UDim2.new(0, 200, 0, 50)
-	Jayhub.Font = Enum.Font.SourceSans
-	Jayhub.Text = "JayHub"
-	Jayhub.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Jayhub.TextScaled = true
-	Jayhub.TextSize = 14.000
-	Jayhub.TextWrapped = true
-
-	Eclipse.Name = "Eclipse"
-	Eclipse.Parent = SF
-	Eclipse.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	Eclipse.Position = UDim2.new(0.0506890118, 0, 0.14181979, 0)
-	Eclipse.Size = UDim2.new(0, 200, 0, 50)
-	Eclipse.Font = Enum.Font.SourceSans
-	Eclipse.Text = "Eclipse"
-	Eclipse.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Eclipse.TextScaled = true
-	Eclipse.TextSize = 14.000
-	Eclipse.TextWrapped = true
-
-	IY.Name = "IY"
-	IY.Parent = SF
-	IY.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	IY.Position = UDim2.new(0.0506890118, 0, 0.239520922, 0)
-	IY.Size = UDim2.new(0, 200, 0, 50)
-	IY.Font = Enum.Font.SourceSans
-	IY.Text = "Infinite Yield"
-	IY.TextColor3 = Color3.fromRGB(255, 255, 255)
-	IY.TextScaled = true
-	IY.TextSize = 14.000
-	IY.TextWrapped = true
-
-	FreeXboxKnife.Name = "FreeXboxKnife"
-	FreeXboxKnife.Parent = SF
-	FreeXboxKnife.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	FreeXboxKnife.Position = UDim2.new(0.0506890118, 0, 0.342969179, 0)
-	FreeXboxKnife.Size = UDim2.new(0, 200, 0, 50)
-	FreeXboxKnife.Font = Enum.Font.SourceSans
-	FreeXboxKnife.Text = "Free Xbox Knife"
-	FreeXboxKnife.TextColor3 = Color3.fromRGB(255, 255, 255)
-	FreeXboxKnife.TextScaled = true
-	FreeXboxKnife.TextSize = 14.000
-	FreeXboxKnife.TextWrapped = true
-
-	Frame.Parent = MainFrame
-	Frame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-	Frame.Position = UDim2.new(0.351598173, 0, 0.175287351, 0)
-	Frame.Size = UDim2.new(0, 14, 0, 287)
-
-	Credits.Name = "Credits"
-	Credits.Parent = MainFrame
-	Credits.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	Credits.Position = UDim2.new(0.0221175812, 0, 0.222279564, 0)
-	Credits.Size = UDim2.new(0, 200, 0, 50)
-	Credits.Font = Enum.Font.SourceSans
-	Credits.Text = "Credits"
-	Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Credits.TextScaled = true
-	Credits.TextSize = 14.000
-	Credits.TextWrapped = true
-
-	CLOSE.Name = "CLOSE"
-	CLOSE.Parent = MainFrame
-	CLOSE.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-	CLOSE.BorderSizePixel = 0
-	CLOSE.Position = UDim2.new(0.92713511, 0, 0.0275361463, 0)
-	CLOSE.Size = UDim2.new(0, 40, 0, 41)
-	CLOSE.Font = Enum.Font.SourceSans
-	CLOSE.Text = "_"
-	CLOSE.TextColor3 = Color3.fromRGB(46, 56, 255)
-	CLOSE.TextScaled = true
-	CLOSE.TextSize = 14.000
-	CLOSE.TextWrapped = true
-
-	OPEN.Name = "OPEN"
-	OPEN.Parent = gui
-	OPEN.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-	OPEN.Position = UDim2.new(0.0723458901, 0, 0.719406009, 0)
-	OPEN.Size = UDim2.new(0, 200, 0, 50)
-	OPEN.Font = Enum.Font.SourceSans
-	OPEN.Text = "OPEN"
-	OPEN.TextColor3 = Color3.fromRGB(255, 255, 255)
-	OPEN.TextScaled = true
-	OPEN.TextSize = 14.000
-	OPEN.TextWrapped = true
-
-	CreditsFrame.Name = "CreditsFrame"
-	CreditsFrame.Parent = gui
-	CreditsFrame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-	CreditsFrame.Position = UDim2.new(0.0511073247, 0, 0.198996648, 0)
-	CreditsFrame.Size = UDim2.new(0, 224, 0, 283)
-	CreditsFrame.Visible = false
-
-	TextLabel_2.Parent = CreditsFrame
-	TextLabel_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-	TextLabel_2.Size = UDim2.new(0, 224, 0, 45)
-	TextLabel_2.Font = Enum.Font.SourceSans
-	TextLabel_2.Text = "Credits"
-	TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_2.TextScaled = true
-	TextLabel_2.TextSize = 14.000
-	TextLabel_2.TextWrapped = true
-
-	TextLabel_3.Parent = CreditsFrame
-	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_3.BackgroundTransparency = 1.000
-	TextLabel_3.Position = UDim2.new(0.0223214291, 0, 0.204946995, 0)
-	TextLabel_3.Size = UDim2.new(0, 212, 0, 192)
-	TextLabel_3.Font = Enum.Font.SourceSans
-	TextLabel_3.Text = "Credits to BlueValkyrie#8688 for making \"DIAMOND TESTER\""
-	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_3.TextScaled = true
-	TextLabel_3.TextSize = 30.000
-	TextLabel_3.TextWrapped = true
-
-	ccf.Name = "ccf"
-	ccf.Parent = CreditsFrame
-	ccf.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-	ccf.BorderSizePixel = 0
-	ccf.Position = UDim2.new(0.788728714, 0, 0.0126592955, 0)
-	ccf.Size = UDim2.new(0, 40, 0, 41)
-	ccf.Font = Enum.Font.SourceSans
-	ccf.Text = "_"
-	ccf.TextColor3 = Color3.fromRGB(255, 255, 255)
-	ccf.TextScaled = true
-	ccf.TextSize = 14.000
-	ccf.TextWrapped = true
-
-	-- Scripts:
-
-	local function BTMHPA_fake_script() -- MainFrame.Script 
-		local script = Instance.new('Script', MainFrame)
-
-		script.Parent.Active = true
-		script.Parent.Draggable = true
-	end
-	coroutine.wrap(BTMHPA_fake_script)()
-	local function WMGRPKR_fake_script() -- Jayhub.LocalScript 
-		local script = Instance.new('LocalScript', Jayhub)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://jack1214060.xyz/jayhub",true))()
-
-		end)
-	end
-	coroutine.wrap(WMGRPKR_fake_script)()
-	local function RMMNMB_fake_script() -- Eclipse.LocalScript 
-		local script = Instance.new('LocalScript', Eclipse)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
-		end)
-	end
-	coroutine.wrap(RMMNMB_fake_script)()
-	local function OEXHT_fake_script() -- IY.LocalScript 
-		local script = Instance.new('LocalScript', IY)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true)) ()
-		end)
-	end
-	coroutine.wrap(OEXHT_fake_script)()
-	local function SPYNST_fake_script() -- FreeXboxKnife.LocalScript 
-		local script = Instance.new('LocalScript', FreeXboxKnife)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			game.ReplicatedStorage.IsXbox:FireServer(true)
-		end)
-	end
-	coroutine.wrap(SPYNST_fake_script)()
-	local function WCDGI_fake_script() -- Credits.LocalScript 
-		local script = Instance.new('LocalScript', Credits)
-
-		local cf = script.Parent.Parent.Parent.CreditsFrame
-		script.Parent.MouseButton1Click:Connect(function()
-			cf.Visible = true
-		end)
-	end
-	coroutine.wrap(WCDGI_fake_script)()
-	local function HTYLUKI_fake_script() -- CLOSE.LocalScript 
-		local script = Instance.new('LocalScript', CLOSE)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			script.Parent.Parent.Visible = false
-			script.Parent.Parent.Parent.OPEN.Visible = true
-		end)
-	end
-	coroutine.wrap(HTYLUKI_fake_script)()
-	local function LPNU_fake_script() -- OPEN.LocalScript 
-		local script = Instance.new('LocalScript', OPEN)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			script.Parent.Visible = false
-			script.Parent.Parent.MainFrame.Visible = true
-		end)
-	end
-	coroutine.wrap(LPNU_fake_script)()
-	local function GNYEHN_fake_script() -- ccf.LocalScript 
-		local script = Instance.new('LocalScript', ccf)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			script.Parent.Parent.Visible = false
-		end)
-	end
-	coroutine.wrap(GNYEHN_fake_script)()
-	local function ENRHX_fake_script() -- CreditsFrame.Script 
-		local script = Instance.new('Script', CreditsFrame)
-
-		script.Parent.Active = true
-		script.Parent.Draggable = true
-	end
-	coroutine.wrap(ENRHX_fake_script)()
-	local function MLTNDC_fake_script() -- gui.LocalScript 
-		local script = Instance.new('LocalScript', gui)
-
-
-	end
-	coroutine.wrap(MLTNDC_fake_script)()
-
-end)
-
-bphack.Name = "bphack"
-bphack.Parent = MoonXFrame
-bphack.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-bphack.BorderColor3 = Color3.fromRGB(45, 44, 44)
-bphack.BorderSizePixel = 0
-bphack.Position = UDim2.new(-0.268240303, 0, 0.257990837, 0)
-bphack.Size = UDim2.new(0, 108, 0, 42)
-bphack.Font = Enum.Font.SourceSans
-bphack.Text = "Big Paintball Hack"
-bphack.TextColor3 = Color3.fromRGB(255, 255, 255)
-bphack.TextSize = 20.000
-bphack.TextWrapped = true
-bphack.MouseButton1Click:Connect(function()
-	------------------------------------------------
-	---              Fiusen Hub V2                  ---
-	---------------------------------------------------
-
-	-- Var
-	local Players       = game:GetService("Players"); --> Wally is sexy!
-	local Player        = Players.LocalPlayer;
-
-	-- Game Things
-	local scriptEnv     = require(game:GetService("ReplicatedStorage").Framework.Library);
-	local network       = scriptEnv.Network;
-	local gunCmds       = scriptEnv.GunCmds;
-	local SilentAimTog  = true;
-	local UnlockAllTog  = true;
-
-	-- Close Player Func
-	local function getClosestPlayer()
-		local shortestDistance, closestPlayer  = math.huge;
-
-		for i, v in next, Players:GetPlayers() do
-			if (v.Name ~= Player.Name and v.Team ~= Player.Team and Player.Character and Player.Character:FindFirstChild("HumanoidRootPart") and v.Character and v.Character:FindFirstChild("HumanoidRootPart")) then
-				local mag = (v.Character.HumanoidRootPart.Position - Player.Character.HumanoidRootPart.Position).magnitude;
-
-				if (mag < shortestDistance) then
-					closestPlayer = v;
-					shortestDistance = mag;
-				end;
-			end;
-		end;
-
-		return closestPlayer;
-	end;
-
-	-- Kill Function
-	local function kill(code, plr)
-		if (code and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart")) then
-			local data = 
-				{
-					[1] = 
-					{
-						[1] = plr.Character.Humanoid;
-						[2] = code;
-						[3] = 235;
-						[4] = plr.Character.HumanoidRootPart.Position;
-						[5] = false;
-					};
-					[2] = 
-					{
-						[1] = false;
-						[2] = false;
-						[3] = false;
-						[4] = false;
-						[5] = false;
-					};
-				};
-
-			game:GetService("Workspace"):FindFirstChild("__THINGS"):FindFirstChild("__REMOTES"):FindFirstChild("do damage"):FireServer(data);
-		end;
-	end;
-
-	-- Unlock All Hook
-	do
-		-- Hook
-		local oldUnlockAll = gunCmds.DoesOwnGun;
-
-		gunCmds.DoesOwnGun = newcclosure(function(...)
-			if (UnlockAllTog) then
-				return true;
-			end;
-
-			return oldUnlockAll(...);
-		end);
-	end;
-
-	-- Network Hook
-	do
-		-- Hook
-		local oldFire = network.Fire;
-
-		network.Fire = newcclosure(function(self, ...)
-			local args = {...};
-
-			if (tostring(self) == "New Projectile" and SilentAimTog) then
-				local closePlayer = getClosestPlayer();
-
-				if (closePlayer) then
-					kill(args[2], closePlayer); --> Epic func
-				end;
-			elseif (tostring(self) == "Request Respawn" and UnlockAllTog) then
-				args[1] = "1"; --> Easy peasy bypass :)
-			end;
-
-			return oldFire(self, unpack(args));
-		end);
-	end;
-
-	print'running!'; --> Prints for when its done loading gg
-end)
-
-arsenalgui.Name = "arsenalgui"
-arsenalgui.Parent = MoonXFrame
-arsenalgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-arsenalgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
-arsenalgui.BorderSizePixel = 0
-arsenalgui.Position = UDim2.new(-0.268240303, 0, 0.383561611, 0)
-arsenalgui.Size = UDim2.new(0, 108, 0, 40)
-arsenalgui.Font = Enum.Font.SourceSans
-arsenalgui.Text = "Arsenal Darkhub"
-arsenalgui.TextColor3 = Color3.fromRGB(255, 255, 255)
-arsenalgui.TextSize = 20.000
-arsenalgui.TextWrapped = true
-arsenalgui.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
-end)
-
-katgui.Name = "katgui"
-katgui.Parent = MoonXFrame
-katgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-katgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
-katgui.BorderSizePixel = 0
-katgui.Position = UDim2.new(-0.268240303, 0, 0.493150651, 0)
-katgui.Size = UDim2.new(0, 108, 0, 26)
-katgui.Font = Enum.Font.SourceSans
-katgui.Text = "KAT GUI"
-katgui.TextColor3 = Color3.fromRGB(255, 255, 255)
-katgui.TextSize = 20.000
-katgui.TextWrapped = true
-katgui.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx", true))()
- 
-end)
-
-Noclip.Name = "Noclip"
-Noclip.Parent = MoonXFrame
-Noclip.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Noclip.BorderColor3 = Color3.fromRGB(45, 44, 44)
-Noclip.BorderSizePixel = 0
-Noclip.Position = UDim2.new(0.304721087, 0, 0.46347031, 0)
-Noclip.Size = UDim2.new(0, 179, 0, 39)
-Noclip.Font = Enum.Font.SourceSans
-Noclip.Text = "Noclip"
-Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
-Noclip.TextSize = 20.000
-Noclip.TextWrapped = true
-Noclip.MouseButton1Click:Connect(function()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Touched:connect(function(obj)
-
-spawn(function()
-K = obj.Transparency
-J = obj.CanCollide
-obj.Transparency = 0.5
-obj.CanCollide = false
-while wait() do
-if (noclipplayer.Character.HumanoidRootPart.Position - obj.Position).Magnitude > 10 then
-obj.Transparency = K
-obj.CanCollide = J
-break
-end
-end
-end)
-end)
-end)
-
-assassingui.Name = "assassingui"
-assassingui.Parent = MoonXFrame
-assassingui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-assassingui.BorderColor3 = Color3.fromRGB(45, 44, 44)
-assassingui.BorderSizePixel = 0
-assassingui.Position = UDim2.new(-0.268240303, 0, 0.577625513, 0)
-assassingui.Size = UDim2.new(0, 108, 0, 26)
-assassingui.Font = Enum.Font.SourceSans
-assassingui.Text = "ASSASSIN GUI"
-assassingui.TextColor3 = Color3.fromRGB(255, 255, 255)
-assassingui.TextSize = 20.000
-assassingui.TextWrapped = true
-assassingui.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Atta/main/Assassin%20Shitter'))();
 end)
