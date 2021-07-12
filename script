@@ -18,7 +18,7 @@ local mm2gui = Instance.new("TextButton")
 local bphack = Instance.new("TextButton")
 local arsenalgui = Instance.new("TextButton")
 local katgui = Instance.new("TextButton")
-
+local assassingui = Instance.new("TextButton")
 
 
 MoonXFrame.Name = "MoonXFrame"
@@ -30,6 +30,23 @@ MoonXFrame.Size = UDim2.new(0, 466, 0, 438)
 MoonXFrame.Draggable = true
 MoonXFrame.Selectable = true
 MoonXFrame.Active = true
+
+
+assassingui.Name = "assassingui"
+assassingui.Parent = game.StarterGui.MoonX.MoonXFrame
+assassingui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+assassingui.BorderColor3 = Color3.fromRGB(45, 44, 44)
+assassingui.BorderSizePixel = 0
+assassingui.Position = UDim2.new(-0.268240303, 0, 0.577625513, 0)
+assassingui.Size = UDim2.new(0, 108, 0, 26)
+assassingui.Font = Enum.Font.SourceSans
+assassingui.Text = "ASSASSIN GUI"
+assassingui.TextColor3 = Color3.fromRGB(255, 255, 255)
+assassingui.TextSize = 20.000
+assassingui.TextWrapped = true
+assassingui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Atta/main/Assassin%20Shitter'))();
+end)
 
 katgui.Name = "katgui"
 katgui.Parent = game.StarterGui.MoonX.MoonXFrame
