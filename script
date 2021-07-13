@@ -15,11 +15,10 @@ local plgui = Instance.new("TextButton")
 local mm2gui = Instance.new("TextButton")
 local bphack = Instance.new("TextButton")
 local arsenalgui = Instance.new("TextButton")
-local katgui = Instance.new("TextButton")
 local Noclip = Instance.new("TextButton")
-local assassingui = Instance.new("TextButton")
 local ffgui = Instance.new("TextButton")
-
+local DarkHub = Instance.new("TextButton")
+local assassingui = Instance.new("TextButton")
 
 
 MoonXFrame.Name = "MoonXFrame"
@@ -37,7 +36,7 @@ ffgui.Parent = MoonXFrame
 ffgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 ffgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
 ffgui.BorderSizePixel = 0
-ffgui.Position = UDim2.new(-0.268240303, 0, 0.577625513, 0)
+ffgui.Position = UDim2.new(-0.268, 0,0.356, 0)
 ffgui.Size = UDim2.new(0, 108, 0, 51)
 ffgui.Font = Enum.Font.SourceSans
 ffgui.Text = "FUNKY FRIDAY GUI"
@@ -48,38 +47,25 @@ ffgui.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 end)
 
-assassingui.Name = "assassingui"
-assassingui.Parent = MoonXFrame
-assassingui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-assassingui.BorderColor3 = Color3.fromRGB(45, 44, 44)
-assassingui.BorderSizePixel = 0
-assassingui.Position = UDim2.new(-0.268240303, 0, 0.577625513, 0)
-assassingui.Size = UDim2.new(0, 108, 0, 26)
-assassingui.Font = Enum.Font.SourceSans
-assassingui.Text = "ASSASSIN GUI"
-assassingui.TextColor3 = Color3.fromRGB(255, 255, 255)
-assassingui.TextSize = 20.000
-assassingui.TextWrapped = true
-assassingui.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Atta/main/Assassin%20Shitter'))();
+
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = MoonXFrame
+DarkHub.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+DarkHub.BorderColor3 = Color3.fromRGB(45, 44, 44)
+DarkHub.BorderSizePixel = 0
+DarkHub.Position = UDim2.new(-0.268240303, 0, 0.655251086, 0)
+DarkHub.Size = UDim2.new(0, 108, 0, 26)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "Darkhub"
+DarkHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.TextSize = 20.000
+DarkHub.TextWrapped = true
+DarkHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
 
-katgui.Name = "katgui"
-katgui.Parent = MoonXFrame
-katgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-katgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
-katgui.BorderSizePixel = 0
-katgui.Position = UDim2.new(-0.268240303, 0, 0.493150651, 0)
-katgui.Size = UDim2.new(0, 108, 0, 26)
-katgui.Font = Enum.Font.SourceSans
-katgui.Text = "KAT GUI"
-katgui.TextColor3 = Color3.fromRGB(255, 255, 255)
-katgui.TextSize = 20.000
-katgui.TextWrapped = true
-katgui.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx", true))()
- 
-end)
+
 
 MoonXHub.Name = "MoonXHub"
 MoonXHub.Parent = MoonXFrame
@@ -91,21 +77,7 @@ MoonXHub.Size = UDim2.new(0, 140, 0, 438)
 MoonX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 MoonX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-arsenalgui.Name = "arsenalgui"
-arsenalgui.Parent = MoonXFrame
-arsenalgui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-arsenalgui.BorderColor3 = Color3.fromRGB(45, 44, 44)
-arsenalgui.BorderSizePixel = 0
-arsenalgui.Position = UDim2.new(-0.268240303, 0, 0.383561611, 0)
-arsenalgui.Size = UDim2.new(0, 108, 0, 40)
-arsenalgui.Font = Enum.Font.SourceSans
-arsenalgui.Text = "Darkhub"
-arsenalgui.TextColor3 = Color3.fromRGB(255, 255, 255)
-arsenalgui.TextSize = 20.000
-arsenalgui.TextWrapped = true
-arsenalgui.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
-end)
+
 
 Name.Name = "Name"
 Name.Parent = MoonXFrame
